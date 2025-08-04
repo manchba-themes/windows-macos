@@ -391,6 +391,10 @@
             .feature-item {
                 font-size: 1.2rem;
             }
+
+            .macos-preview-image {
+                width: 85% !important;
+            }
         }
 
         @media (max-width: 480px) {
@@ -419,46 +423,37 @@
             .time-small {
                 font-size: 1.5rem;
             }
+
+            .macos-preview-image {
+                width: 90% !important;
+            }
         }
-    
 
-.macos-preview-image {
-    width: 80%;
-    max-width: 800px;
-    border-radius: 20px;
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
-    transition: transform 0.4s ease;
-}
+        .macos-preview-image {
+            width: 65%;
+            max-width: 800px;
+            border-radius: 20px;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+            transition: transform 0.4s ease;
+            height: auto;
+        }
 
-.macos-preview-image:hover {
-    transform: scale(1.03);
-}
+        .macos-preview-image:hover {
+            transform: scale(1.03);
+        }
 
-.download-button {
-    padding: 16px 32px !important;
-    font-size: 1.1rem !important;
-}
+        .download-button {
+            padding: 16px 32px !important;
+            font-size: 1.1rem !important;
+        }
 
-.download-icon {
-    font-size: 1.5rem !important;
-}
+        .download-icon {
+            font-size: 1.5rem !important;
+        }
 
-.main-title {
-    font-size: 2.2rem !important;
-}
-
-
-.macos-preview-image {
-    width: 90% !important;
-    max-width: 1000px !important;
-    border-radius: 20px;
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
-    transition: transform 0.4s ease;
-}
-
-.macos-preview-image:hover {
-    transform: scale(1.03);
-}
+        .main-title {
+            font-size: 2.2rem !important;
+        }
 </style>
 </head>
 <body>
@@ -473,7 +468,13 @@
 <div class="floating-circle circle2"></div>
 <div class="floating-circle circle3"></div>
 </div>
-<div class="desktop-mockups"><img src="/images/princi.jpg" alt="image" border="0" class="macos-preview-image" /></div>
+<div class="desktop-mockups">
+    <img src="images/princi.jpg" 
+         alt="image" 
+         border="0" 
+         class="macos-preview-image" />
+</div>
+
 </div>
 <div class="cta-section">
 <a class="download-button" href="https://lequipe.fr" target="_blank">
